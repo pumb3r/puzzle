@@ -51,13 +51,11 @@
             this.picture11 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.менюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.перемешатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.показатьОригиналToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вийтиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.виборКартинкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.китToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вайФайToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picture9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture8)).BeginInit();
@@ -419,20 +417,12 @@
             // менюToolStripMenuItem
             // 
             this.менюToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.перемешатьToolStripMenuItem,
             this.показатьОригиналToolStripMenuItem,
             this.вийтиToolStripMenuItem,
             this.виборКартинкиToolStripMenuItem});
             this.менюToolStripMenuItem.Name = "менюToolStripMenuItem";
             this.менюToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.менюToolStripMenuItem.Text = "Меню";
-            // 
-            // перемешатьToolStripMenuItem
-            // 
-            this.перемешатьToolStripMenuItem.Name = "перемешатьToolStripMenuItem";
-            this.перемешатьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.перемешатьToolStripMenuItem.Text = "Перемешать";
-            this.перемешатьToolStripMenuItem.Click += new System.EventHandler(this.перемешатьToolStripMenuItem_Click);
             // 
             // показатьОригиналToolStripMenuItem
             // 
@@ -471,22 +461,11 @@
             this.вайФайToolStripMenuItem.Text = "Вай фай";
             this.вайФайToolStripMenuItem.Click += new System.EventHandler(this.вайФайToolStripMenuItem_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(528, 227);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(1182, 411);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
@@ -547,13 +526,11 @@
         private System.Windows.Forms.PictureBox picture22;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem менюToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem перемешатьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem показатьОригиналToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вийтиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem виборКартинкиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem китToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вайФайToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
     }
 }
 
